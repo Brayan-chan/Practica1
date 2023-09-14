@@ -24,7 +24,7 @@ import javax.swing.JOptionPane;
 public class Computadora{
 	
 	int discoDuro;
-	double velocidadProcesador;
+	float velocidadProcesador;
 	Computadora peer;
 	String sistemaOperativo;
 	String nombre;
@@ -32,7 +32,7 @@ public class Computadora{
 
 	public Computadora(String nombreEquipo){
 		discoDuro = 640;
-		velocidadProcesador = 3.1;
+		velocidadProcesador = 3.1f;
 		sistemaOperativo = "Microsoft Windows 7";
 		nombre = nombreEquipo;
 				
